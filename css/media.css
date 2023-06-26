@@ -1,0 +1,133 @@
+
+
+
+@media (max-width:999.99px) {
+    .navbar-light .navbar-toggler {
+        margin-right: initial;
+        color: rgb(255 195 12);
+    }
+    .nav-item {
+        padding-left: 0;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .connect_btn {
+        margin: 30px 0;
+    }
+    .hero-text h1 {
+        color: #fff;
+        font-size: 44px;
+    }
+    .about-text h5 {
+        font-size: 26px;
+    }
+    .wraper_1st h2 {
+        font-size: 29px;
+    }
+    .cta_wrap {
+        padding: 30px 20px;
+       
+    }
+
+  }
+@media (max-width:575px) {
+    .navbar-light .navbar-toggler {
+        margin: auto;
+        color: rgb(255 195 12);
+    }
+    .nav-item {
+        padding-left: 0;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .connect_btn {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .hero-text h1 {
+        color: #fff;
+        font-size: 36px;
+    }
+    #about-us {
+        padding: 50px 0;
+        background-image: url(../Images-element/small-1.jpg);
+        background-position: top left;
+        background-size: cover;
+    }
+    .about-text h5 {
+        font-size: 32px;
+    }
+    .wraper_1st h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+    }
+    .get_app {
+        text-decoration: none;
+        background: #fff;
+        padding: 10px 36px;
+        color: #ffbf00;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .why_fitwin h2 {
+        color: #fbc831;
+        font-weight: 500;
+        font-size: 36px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .why_fitwin {
+        text-align: center;
+    }
+    .video_wrap{
+        margin-bottom: 30px;
+    }
+    #blog {
+        background-image: url(../Images-element/small.jpg);
+        background-position: bottom right;
+        background-size: cover;
+        padding: 80px 0;
+    }
+    #cta {
+        margin: 40px 0;
+    }
+    .cta_wrap {
+        display: inherit;
+    }
+    .fitness_text {
+        padding: 20px;
+    }
+    .fitness_text ul li {
+        margin-bottom: 10px;
+        color: #000;
+        font-size: 16px;
+    }
+    .pay_left {
+        text-align: center;
+    }
+    .divider {
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .last_wrap {
+        display: inherit;
+        text-align: center;
+    }
+    .icon-wrap{
+        margin-bottom: 20px;
+    }
+    .google{
+        margin-bottom: 20px;
+    }
+    #payment {
+        background-color: #F7F7F7;
+        padding: 40px 0;
+    }
+        
+}

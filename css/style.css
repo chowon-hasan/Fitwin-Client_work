@@ -1,0 +1,486 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+/* ************************
+header section start here
+************************ */
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+background: #000;}
+.logo{
+max-width: 100px;
+}
+.logo_text img{
+max-width: 160px;
+}
+.logo_wrap{
+display: flex;
+align-items: center;
+}
+.navbar-nav{
+align-items: center;
+}
+.navbar-light .navbar-nav .nav-link {
+color: #ffffff;
+text-transform: uppercase;
+position: relative;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+color:#067ee7ce;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+color: #fff;
+}
+.navbar-light .navbar-nav .nav-link::after{
+position: absolute;
+content: '';
+left: 0;
+bottom: -7px;
+width: 0%;
+height: 2px;
+background: #fff;
+transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+width: 100%;
+}
+.nav-item{
+padding-left: 40px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+padding: 0;
+}
+
+.connect_btn{
+margin-left: 30px;
+}
+.Button {
+text-decoration: none;
+color: #000;
+padding: 10px 35px;
+background: #ffc30c;
+font-weight: 500;
+text-transform: uppercase;
+}
+.Button:hover{
+background-color: #fff;
+color: #ffc30c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------TOP NAV START HERE------------- */
+
+/* --------------------HERO SECTION START HERE------------- */
+#hero{
+background-image: url(../Images-element/banner_woman.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.height{
+min-height: 87vh;
+align-items: center;
+}
+.overlay{
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.479);
+}
+.hero-text{
+
+}
+.hero-text h1{
+color: #fff;
+font-size: 60px;
+}
+.member_bttn{
+margin-top: 40px;
+}
+.banner_video, .about_video{
+width: 100%;
+}
+
+
+
+
+
+
+
+
+
+#about-us{
+padding: 50px 0;
+background-image: url(../Images-element/1.jpg);
+background-position: top left;
+background-size: cover;
+}
+.about-text h5{color: #ffffff;text-transform: uppercase;font-weight: 700;margin-bottom: 80px;font-size: 36px;}
+.training{
+display: flex;
+align-items: center;
+
+}
+.visit_bttn{
+margin-top: 30px;
+}
+.train_text{
+text-align: center;
+}
+
+.train_text h2{
+    font-size: 34px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.train_text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.training img, .live_chat img{
+max-width: 250px;
+}
+.about-text p{
+color: #ffc30c;
+font-size: 18px;
+font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+#food{background-color: #343434;
+    padding-bottom: 40px;
+}
+#sports{
+background-color: #343434;
+padding-top: 60px;
+}
+.live_chat{
+text-align: center;
+}
+/* --------------SERVICE SECTION START HERE---------- */
+
+
+
+
+
+
+
+#cta_first{
+
+background: #fbc831;
+
+padding: 70px;
+}
+.wraper_1st{
+
+text-align: right;
+}
+.wraper_1st h2{
+
+font-size: 38px;
+
+margin-bottom: 0;
+
+color: #fff;
+
+font-weight: 700;
+}
+.cta_button_1st{
+
+text-align: center;
+}
+
+.cta_button_fst{
+
+text-decoration: none;
+
+
+background: #fbc831;
+
+padding: 12px 50px;
+
+color: #000;
+
+font-size: 18px;
+
+font-weight: 500;
+}
+.cta_button_fst:hover{
+color: #fbc831;
+background-color: #fff;
+}
+.get_app{
+
+text-decoration: none;
+
+
+background: #fff;
+
+padding: 12px 50px;
+
+color: #ffbf00;
+
+font-size: 18px;
+
+font-weight: 500;
+}
+.get_app:hover{
+color: #fff;
+background-color: #343434;
+}
+.why_fitwin{
+
+}
+.why_fitwin h2{
+
+color: #fbc831;
+
+font-weight: 500;
+
+font-size: 36px;
+
+margin-bottom: 30px;
+}
+.why_fitwin p{
+
+color: #fff;
+
+line-height: 25px;
+}
+.why_bttn{
+margin-top: 30px;
+
+}
+
+
+
+#blog{background-image: url(../Images-element/2.jpg);background-position: bottom right;background-size: cover;padding: 80px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cta{
+
+}
+.cta_height{
+min-height: 90vh;
+align-items: center;
+}
+.cta_wrap{
+
+display: flex;
+
+justify-content: space-around;
+
+background: #fbc831;
+
+padding: 130px 0;
+
+align-items: center;
+}
+.fitness_text{
+
+}
+.fitness_text h3{
+
+font-weight: 600;
+
+color: #fff;
+}
+
+.fitness_text ul{
+
+list-style: none;
+
+padding: 0;
+}
+.fitness_text ul li{
+
+margin-bottom: 10px;
+
+color: #000;
+
+font-size: 18px;
+}
+.fitness_text ul li i{
+
+margin-right: 10px;
+
+color: #fff;
+}
+
+.cta_right{
+
+text-align: center;
+}
+.cta_right p{
+
+color: #fff;
+
+font-size: 22px;
+
+text-transform: capitalize;
+
+font-weight: 600;
+}
+.cta_right h3{
+
+text-transform: capitalize;
+}
+.cta_button{
+
+margin-top: 40px;
+}
+.cta_btn{
+
+text-decoration: none;
+
+border: 1px solid #fff;
+
+padding: 15px 40px;
+
+background: #fff;
+
+color: #fbc831;
+
+font-weight: 600;
+}
+.cta_btn:hover{
+color: #000;
+}
+
+.pay_height{
+
+min-height: 70vh;
+
+align-items: center;
+}
+
+#payment{
+background-color: #F7F7F7;
+}
+.pay_left{
+
+}
+.pay_left h2{
+
+color: #000000;
+}
+.pay_left p{
+
+}
+.divider{
+
+display: block;
+
+height: 3px;
+
+width: 69px;
+
+margin: 20px 0;
+
+background: #fbc831;
+}
+
+.pay_right{
+
+}
+.pay_right img{
+
+}
+
+/* -----------------FOOTER SECTION START HERE------------- */
+#footer{padding: 40px 0;background: #343434;}
+.foot-card h3{color: #fbc831;font-size: 22px;font-weight: 700;}
+.board{
+height: 2px;
+width: 100%;
+display: block;
+background: #fff;
+margin: 30px 0;
+}
+.foot-card p{color: #ffffff;}
+.icon-wrap h5{
+color: #fff;
+font-size: 18px;
+}
+.icon-wrap a i{margin: 0 15px 0 0;color: #fbc831;font-size: 22px;}
+.icon-wrap a{
+
+}
+.foot-card ul{
+list-style: none;
+padding: 0;
+}
+.foot-card ul li a{text-decoration: none;color: #fff;text-transform: uppercase;}
+.contact-info h5{display: flex;color: #fff;font-size: 16px;margin-top: 10px;}
+.contact-info h5 i{
+color: #0e88a4;
+margin-right: 10px;
+}
+#last-foot{
+padding: 20px;
+}
+.copyright p{
+margin: 0;
+color: #000;
+}
+.contact-info a{
+
+text-decoration: none;
+
+color: #fbc831;
+}
+.contact-info a i{
+
+margin-right: 10px;
+}
+.contact-info h5 i{
+
+color: #fbc831;
+}
+.last_wrap{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 30px;
+}
